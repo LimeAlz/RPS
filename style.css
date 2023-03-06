@@ -1,5 +1,61 @@
+*{
+    font-family: American Typewriter, serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+
 .result{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 36px;
+    
+}
+
+.bt{
+    background-color: darkgray;
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.bt:hover{
+    background-color: rgb(108, 106, 106);
+}
+
+.choice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+
+.g-result{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f-result{
+    display: flex;
+    justify-content: center;
+}
+
+/* .result{
     height:300px;
     width: 500px;
     border: 2px solid black;
-}
+} */
